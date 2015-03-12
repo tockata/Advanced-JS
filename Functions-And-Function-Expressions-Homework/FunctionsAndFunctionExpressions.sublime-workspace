@@ -1,0 +1,469 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"va",
+				"validateArguments(argument)"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"wr",
+				"writeLine()"
+			],
+			[
+				"plac",
+				"placeholder	(str)"
+			],
+			[
+				"pla",
+				"placeholder"
+			],
+			[
+				"p",
+				"push(newelt)"
+			],
+			[
+				"Re",
+				"RegExp(source, flags?)"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"s",
+				"substring(from, to?)"
+			],
+			[
+				"add",
+				"addInner(b)"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"i",
+				"ifun	immediate function"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"elem",
+				"elements〔variable〕"
+			],
+			[
+				"eve",
+				"eventStr〔variable〕"
+			],
+			[
+				"ev",
+				"eventStr"
+			],
+			[
+				"par",
+				"parentNode〔variable〕"
+			],
+			[
+				"chil",
+				"childNode〔variable〕"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"ret",
+				"retrieveElements"
+			],
+			[
+				"nod",
+				"nodeResult〔variable〕"
+			],
+			[
+				"no",
+				"nodeResult"
+			],
+			[
+				"node",
+				"nodeAtributtes〔variable〕"
+			],
+			[
+				"tra",
+				"traverse〔function〕"
+			],
+			[
+				"sele",
+				"selectorStr"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"bird",
+				"birds"
+			],
+			[
+				"ad",
+				"add1"
+			],
+			[
+				"tes",
+				"testTestContext"
+			],
+			[
+				"Test",
+				"testContext"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pri",
+				"printArgsInfo〔function〕"
+			],
+			[
+				"imp",
+				"import〔keyword〕"
+			],
+			[
+				"argum",
+				"arguments"
+			],
+			[
+				"typ",
+				"typeof〔keyword〕"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"post",
+				"post"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"l",
+				"li	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/node.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package co",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 297.0,
+		"history":
+		[
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework"
+	],
+	"file_history":
+	[
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/06-DOMTraversal.js",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/TernJS/TernJS.sublime-settings",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/02-CallAndApply.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/01-FunctionArguments.js",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/04-AddingNumbersUsingFunctions.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/08-ConsoleModule.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/07-DOMManipulation.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/test.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/index.html",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/04-AddingNumbersUsingFunctions",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS/Functions-And-Function-Expressions-Homework/03-TestTheValueOfThis.js",
+		"/C/Users/anato_000/Desktop/test.js",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/node-webkit.sublime-build",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/Web Inspector/Default (Windows).sublime-keymap",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/Web Inspector/swi.sublime-settings",
+		"/C/Users/anato_000/Desktop/index.html",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
+		"/D/xampp/htdocs/SampleExam-Variant-3/03-ITVillage.php",
+		"/D/xampp/htdocs/SampleExam-Variant-3/01-MeetingDates.php",
+		"/D/xampp/htdocs/SampleExam-Variant-3/01-ComputerSmuggler.php",
+		"/D/xampp/htdocs/LaravelTest/app/views/admin/posts/_partials/form.blade.php",
+		"/D/xampp/htdocs/LaravelTest/app/views/admin/posts/create.blade.php",
+		"/D/xampp/htdocs/LaravelTest/app/views/admin/posts/edit.blade.php",
+		"/D/xampp/htdocs/LaravelTest/app/models/User.php",
+		"/D/xampp/htdocs/LaravelTest/app/views/admin/posts/index.blade.php",
+		"/D/xampp/htdocs/LaravelTest/app/routes.php",
+		"/D/xampp/htdocs/LaravelTest/app/controllers/admin/AdminAuthController.php",
+		"/D/xampp/htdocs/LaravelTest/app/filters.php",
+		"/D/xampp/htdocs/SampleExam-Variant-3/sampleExam-Variant-3.sublime-project",
+		"/D/xampp/htdocs/SampleExam-Variant-3/04-Pesho-the-Pharmacist.php"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console",
+			"doctyp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 181.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"project": "FunctionsAndFunctionExpressions.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 167.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
