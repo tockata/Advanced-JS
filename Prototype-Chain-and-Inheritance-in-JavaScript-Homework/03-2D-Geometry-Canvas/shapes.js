@@ -8,22 +8,23 @@ canvas.width = 700;
 canvas.height = 500;
 ctx = canvas.getContext("2d");
 
-Object.prototype.extends = function (parent) {
-  if (!Object.create) {
-    Object.prototype.create = function (proto) {
-      function F() {}
-      F.prototype = proto;
-      return new F();
-    };
-  }
+Object.prototype.extends = function(parent) {
+    if (!Object.create) {
+        Object.prototype.create = function(proto) {
+            function F() {}
+            F.prototype = proto;
+            return new F();
+        };
+    }
 
-  this.prototype = Object.create(parent.prototype);
-  this.prototype.constructor = this;
+    this.prototype = Object.create(parent.prototype);
+    this.prototype.constructor = this;
 };
 
-function isValidHexColor (colorToCheck) {
-    acceptedCharacters = [ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
-        'a', 'b', 'c', 'd', 'e', 'f' ];
+function isValidHexColor(colorToCheck) {
+    acceptedCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+        'a', 'b', 'c', 'd', 'e', 'f'
+    ];
     for (i = 1; i < colorToCheck.length; i++) {
         if (acceptedCharacters.indexOf(colorToCheck[i].toLowerCase()) < 0) {
             return false;
@@ -33,7 +34,7 @@ function isValidHexColor (colorToCheck) {
     return true;
 }
 
-function areValidArgumens (args) {
+function areValidArgumens(args) {
     for (i = 0; i < args.length; i++) {
         if (typeof(args[i]) === 'undefined') {
             return false;
@@ -47,9 +48,9 @@ function areValidArgumens (args) {
     return true;
 }
 
-var Shapes = (function () {
-    var Shape = (function () {
-        function Shape (x, y, color) {
+var Shapes = (function() {
+    var Shape = (function() {
+        function Shape(x, y, color) {
             if (arguments.length !== 3 || !areValidArgumens(arguments)) {
                 throw new Error('There is missing or incorrect argument!');
             }
@@ -63,20 +64,20 @@ var Shapes = (function () {
             this._color = color;
         }
 
-        Shape.prototype.toString = function () {
+        Shape.prototype.toString = function() {
             return 'Color: ' + this._color + ', Point: (x:' + this._x + ', y: ' + this._y + ')';
-      };
+        };
 
-      Shape.prototype.draw = function () {
-          ctx.beginPath();
-          ctx.fillStyle = this._color;
-      };
+        Shape.prototype.draw = function() {
+            ctx.beginPath();
+            ctx.fillStyle = this._color;
+        };
 
-    return Shape;
+        return Shape;
     }());
 
-    var Circle = (function () {
-        function Circle (x, y, color, radius) {
+    var Circle = (function() {
+        function Circle(x, y, color, radius) {
             if (arguments.length !== 4 || !areValidArgumens(arguments)) {
                 throw new Error('There is missing or incorrect argument!');
             }
@@ -87,22 +88,22 @@ var Shapes = (function () {
 
         Circle.extends(Shape);
 
-        Circle.prototype.toString = function () {
+        Circle.prototype.toString = function() {
             return 'Shape: Circle, ' + Shape.prototype.toString.call(this) + ', Radius: ' + this._radius;
         };
 
         Circle.prototype.draw = function() {
-          Shape.prototype.draw.call(this);
-          ctx.arc(this._x, this._y, this._radius, 0, 2 * Math.PI);
-          ctx.fill();
-          ctx.stroke();
+            Shape.prototype.draw.call(this);
+            ctx.arc(this._x, this._y, this._radius, 0, 2 * Math.PI);
+            ctx.fill();
+            ctx.stroke();
         };
 
         return Circle;
     }());
 
-    var Rectangle = (function () {
-        function Rectangle (x, y, color, width, height) {
+    var Rectangle = (function() {
+        function Rectangle(x, y, color, width, height) {
             if (arguments.length !== 5 || !areValidArgumens(arguments)) {
                 throw new Error('There is missing or incorrect argument!');
             }
@@ -114,23 +115,23 @@ var Shapes = (function () {
 
         Rectangle.extends(Shape);
 
-        Rectangle.prototype.toString = function () {
+        Rectangle.prototype.toString = function() {
             return 'Shape: Rectangle, ' + Shape.prototype.toString.call(this) +
-            ', Width: ' + this._width + ', Height: ' + this._height;
+                ', Width: ' + this._width + ', Height: ' + this._height;
         };
 
         Rectangle.prototype.draw = function() {
-          Shape.prototype.draw.call(this);
-          ctx.rect(this._x, this._y, this._width, this._height);
-          ctx.fill();
-          ctx.stroke();
+            Shape.prototype.draw.call(this);
+            ctx.rect(this._x, this._y, this._width, this._height);
+            ctx.fill();
+            ctx.stroke();
         };
 
         return Rectangle;
     }());
 
-    var Triangle = (function () {
-        function Triangle (x, y, color, x2, y2, x3, y3) {
+    var Triangle = (function() {
+        function Triangle(x, y, color, x2, y2, x3, y3) {
             if (arguments.length !== 7 || !areValidArgumens(arguments)) {
                 throw new Error('There is missing or incorrect argument!');
             }
@@ -144,26 +145,26 @@ var Shapes = (function () {
 
         Triangle.extends(Shape);
 
-        Triangle.prototype.toString = function () {
+        Triangle.prototype.toString = function() {
             return 'Shape: Triangle, ' + Shape.prototype.toString.call(this) +
-              ', Point 2: (x: ' + this._x2 + ', y: ' + this._y2 + ')' +
-              ', Point 3: (x: ' + this._x3 + ', y: ' + this._y3 + ')';
+                ', Point 2: (x: ' + this._x2 + ', y: ' + this._y2 + ')' +
+                ', Point 3: (x: ' + this._x3 + ', y: ' + this._y3 + ')';
         };
 
         Triangle.prototype.draw = function() {
-          Shape.prototype.draw.call(this);
-          ctx.moveTo(this._x, this._y);
-          ctx.lineTo(this._x2, this._y2);
-          ctx.lineTo(this._x3, this._y3);
-          ctx.fill();
-          ctx.stroke();
+            Shape.prototype.draw.call(this);
+            ctx.moveTo(this._x, this._y);
+            ctx.lineTo(this._x2, this._y2);
+            ctx.lineTo(this._x3, this._y3);
+            ctx.fill();
+            ctx.stroke();
         };
 
         return Triangle;
     }());
 
-    var Line = (function () {
-        function Line (x, y, color, x2, y2) {
+    var Line = (function() {
+        function Line(x, y, color, x2, y2) {
             if (arguments.length !== 5 || !areValidArgumens(arguments)) {
                 throw new Error('There is missing or incorrect argument!');
             }
@@ -175,24 +176,24 @@ var Shapes = (function () {
 
         Line.extends(Shape);
 
-        Line.prototype.toString = function () {
+        Line.prototype.toString = function() {
             return 'Shape: Line, ' + Shape.prototype.toString.call(this) +
                 ', Point 2: (x: ' + this._x2 + ', y: ' + this._y2 + ')';
         };
 
         Line.prototype.draw = function() {
-          Shape.prototype.draw.call(this);
-          ctx.moveTo(this._x, this._y);
-          ctx.lineTo(this._x2, this._y2);
-          ctx.fill();
-          ctx.stroke();
+            Shape.prototype.draw.call(this);
+            ctx.moveTo(this._x, this._y);
+            ctx.lineTo(this._x2, this._y2);
+            ctx.fill();
+            ctx.stroke();
         };
 
         return Line;
     }());
 
-    var Segment = (function () {
-        function Segment (x, y, color, x2, y2) {
+    var Segment = (function() {
+        function Segment(x, y, color, x2, y2) {
             if (arguments.length !== 5 || !areValidArgumens(arguments)) {
                 throw new Error('There is missing or incorrect argument!');
             }
@@ -204,17 +205,17 @@ var Shapes = (function () {
 
         Segment.extends(Shape);
 
-        Segment.prototype.toString = function () {
+        Segment.prototype.toString = function() {
             return 'Shape: Segment, ' + Shape.prototype.toString.call(this) +
                 ', Point 2: (x: ' + this._x2 + ', y: ' + this._y2 + ')';
         };
 
         Segment.prototype.draw = function() {
-          Shape.prototype.draw.call(this);
-          ctx.moveTo(this._x, this._y);
-          ctx.lineTo(this._x2, this._y2);
-          ctx.fill();
-          ctx.stroke();
+            Shape.prototype.draw.call(this);
+            ctx.moveTo(this._x, this._y);
+            ctx.lineTo(this._x2, this._y2);
+            ctx.fill();
+            ctx.stroke();
         };
 
         return Segment;

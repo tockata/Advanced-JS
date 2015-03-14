@@ -179,9 +179,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -203,10 +207,6 @@
 				"Set Syntax: JavaScript Next"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"packa",
 				"Package Control: Remove Package"
 			],
@@ -215,7 +215,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 720.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -242,15 +242,16 @@
 	],
 	"file_history":
 	[
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/01-Geometry Structure–PseudoClassicalModel.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/02-Geometry Structure–PrototypalModel.js",
 		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/04-Canvas-Geometry-API/shapes.js",
 		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/04-Canvas-Geometry-API/style.css",
 		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/04-Canvas-Geometry-API/index.html",
 		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/03-2D-Geometry-Canvas/index.html",
 		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/03-2D-Geometry-Canvas/shapes.js",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/isIntegerAndInRange.sublime-snippet",
 		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/isNullOrEmpty.sublime-snippet",
-		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/01-Geometry Structure–PseudoClassicalModel.js",
-		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/02-Geometry Structure–PrototypalModel.js",
 		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/index.html",
 		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/home/toc/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
