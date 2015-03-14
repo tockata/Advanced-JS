@@ -1,0 +1,406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"shap",
+				"shapeIndex	(?)"
+			],
+			[
+				"sha",
+				"shapesList	{}"
+			],
+			[
+				"co",
+				"count	(num)"
+			],
+			[
+				"re",
+				"removeChild〔function〕"
+			],
+			[
+				"te",
+				"textNode	(?)"
+			],
+			[
+				"shape",
+				"shape	{}"
+			],
+			[
+				"doc",
+				"document〔variable〕"
+			],
+			[
+				"new",
+				"newOption	(?)"
+			],
+			[
+				"cre",
+				"createElement〔function〕"
+			],
+			[
+				"d",
+				"draw"
+			],
+			[
+				"for",
+				"forin	for in own properties"
+			],
+			[
+				"dra",
+				"drawShapesList"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"tex",
+				"textareaInnerText	(str)"
+			],
+			[
+				"Seg",
+				"Segment(x, y, color, x2, y2)"
+			],
+			[
+				"Lin",
+				"Line(x, y, color, x2, y2)"
+			],
+			[
+				"Tri",
+				"Triangle(x, y, color, x2, y2, x3, y3)"
+			],
+			[
+				"parse",
+				"parseInt〔function〕"
+			],
+			[
+				"pars",
+				"parseInt〔function〕"
+			],
+			[
+				"Re",
+				"Rectangle(x, y, color, width, height)"
+			],
+			[
+				"rect",
+				"rectangle	{}"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"arg",
+				"arguments	[]"
+			],
+			[
+				"type",
+				"typeof〔keyword〕"
+			],
+			[
+				"typ",
+				"typeof〔keyword〕"
+			],
+			[
+				"is",
+				"isValidHexColor(colorToCheck)"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"toLo",
+				"toLowerCase()"
+			],
+			[
+				"acc",
+				"acceptedCharacters"
+			],
+			[
+				"E",
+				"SyntaxError(message)"
+			],
+			[
+				"thr",
+				"throw〔keyword〕"
+			],
+			[
+				"_",
+				"_super"
+			],
+			[
+				"Sha",
+				"Shape"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"Shap",
+				"Shapes"
+			],
+			[
+				"c",
+				"calcArea"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ge",
+				"getElementsByClassName"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: if … else"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 720.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/03-2D-Geometry-Canvas",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/04-Canvas-Geometry-API"
+	],
+	"file_history":
+	[
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/04-Canvas-Geometry-API/shapes.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/04-Canvas-Geometry-API/style.css",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/04-Canvas-Geometry-API/index.html",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/03-2D-Geometry-Canvas/index.html",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/03-2D-Geometry-Canvas/shapes.js",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/isIntegerAndInRange.sublime-snippet",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/isNullOrEmpty.sublime-snippet",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/01-Geometry Structure–PseudoClassicalModel.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/02-Geometry Structure–PrototypalModel.js",
+		"/D/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/index.html",
+		"/C/Users/anato_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/home/toc/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/toc/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/media/toc/Storage_1/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/02-Geometry Structure–PrototypalModel.js",
+		"/media/toc/Storage_1/Programming/Software_University/Homeworks/Advanced-JS-HW/Prototype-Chain-and-Inheritance-in-JavaScript-Homework/index.html",
+		"/media/toc/Storage_1/Programming/Software_University/Courses-Materials/javascript-oop/October-2014/2. JavaScript Object-Oriented-Programming-Demos/14. using-module.js",
+		"/media/toc/Storage_1/Programming/Software_University/Courses-Materials/javascript-oop/October-2014/2. JavaScript Object-Oriented-Programming-Demos/13. prototypal-oop.js",
+		"/home/toc/.config/sublime-text-3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/media/toc/Storage_1/Programming/Software_University/Courses-Materials/javascript-oop/October-2014/2. JavaScript Object-Oriented-Programming-Demos/12. hidden-functions.js",
+		"/media/toc/Storage_1/Programming/Software_University/Courses-Materials/javascript-oop/October-2014/2. JavaScript Object-Oriented-Programming-Demos/09. classical-inheritance.js",
+		"/media/toc/Storage_1/Programming/Software_University/Courses-Materials/javascript-oop/October-2014/2. JavaScript Object-Oriented-Programming-Demos/10. classical-inheritance-calling-parent-methods.js",
+		"/media/toc/Storage_1/Programming/Software_University/Courses-Materials/javascript-oop/October-2014/2. JavaScript Object-Oriented-Programming-Demos/06. this-function-scope.js",
+		"/media/toc/Storage_1/Programming/Software_University/Courses-Materials/javascript-oop/October-2014/2. JavaScript Object-Oriented-Programming-Demos/02. prototype.js",
+		"/media/toc/Storage_1/Programming/Software_University/Homeworks/Advanced-JS-HW/Functions-And-Function-Expressions-Homework/06-DOMTraversal.js",
+		"/media/toc/Storage_1/Programming/Software_University/Homeworks/Advanced-JS-HW/Functions-And-Function-Expressions-Homework/test.js",
+		"/home/toc/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/toc/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/media/toc/Storage_1/Programming/Software_University/Homeworks/Advanced-JS-HW/Functions-And-Function-Expressions-Homework/01-FunctionArguments.js",
+		"/media/toc/Storage_1/Programming/Software_University/Homeworks/Advanced-JS-HW/Functions-And-Function-Expressions-Homework/07-DOMManipulation.js",
+		"/home/toc/.config/sublime-text-3/Packages/User/node.sublime-build",
+		"/home/toc/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/var/www/html/05-PHP-Arrays-String-And-Objects-Homework/02-ColoringTexts.php",
+		"/var/www/html/05-PHP-Arrays-String-And-Objects-Homework/03-SidebarBuilder.php",
+		"/var/www/html/05-PHP-Arrays-String-And-Objects-Homework/06-URLReplacer.php",
+		"/var/www/html/05-PHP-Arrays-String-And-Objects-Homework/07-SeminarGenerator.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 307.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "prototype-and-inheritance.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

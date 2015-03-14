@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Canvas Geometry API</title>
+</head>
+<body>
+    <p>All coordinates should be in range (0, 0):(700, 500) which is the size of the canvas!</p>
+    <form id="shape-input">
+        <label for="x">X:</label>
+        <input type="text" name="x" id="x">
+        <label for="y">Y:</label>
+        <input type="text" name="y" id="y">
+        <label for="color">Color:</label>
+        <input type="color" name="color" id="color"></form></br>
+        <label for="shape">Shape</label>
+        <select id="shape">
+            <option value="circle">Circle</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="triangle">Triangle</option>
+            <option value="line">Line</option>
+            <option value="segment">Segment</option>
+        </select></br>
+        <label for="radius">If selected shape is circle, please enter its radius:</label>
+        <input type="text" name="radius" id="radius"></br>
+        <label for="width">If selected shape is rectangle, please enter its width: </label>
+        <input type="text" name="width" id="width">
+        <label for="height"> and height: </label>
+        <input type="text" name="height" id="height"></br>
+        <label for="x2">X2:</label>
+        <input type="text" name="x2" id="x2">
+        <label for="y2">Y2:</label>
+        <input type="text" name="y2" id="y2"></br>
+        <label for="x3">X3:</label>
+        <input type="text" name="x3" id="x3">
+        <label for="y3">Y3:</label>
+        <input type="text" name="y3" id="y3"></br>
+        <select id="shapes-info" size="10">
+            <option disabled="disabled">Shapes information</option>
+        </select></br>
+        <input type="submit" value="Add" onclick="submitForm()">
+        <input type="button" value="Remove selected shape" onclick="removeShape()"></br>
+    </form>
+    <canvas id='myCanvas' style="border: 1px solid black">
+
+    </canvas>
+    <script src="shapes.js"></script>
+</body>
+</html>
